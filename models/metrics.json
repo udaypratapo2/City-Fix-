@@ -1,0 +1,108 @@
+{
+  "holdout_accuracy": 0.9821,
+  "holdout_macro_f1": 0.9838,
+  "train_rows": 670,
+  "test_rows": 168,
+  "total_rows": 838,
+  "classes": [
+    "drainage",
+    "encroachment",
+    "garbage",
+    "graffiti",
+    "illegal_dumping",
+    "illegal_parking",
+    "noise",
+    "other",
+    "pothole",
+    "stray_animals",
+    "streetlight",
+    "water_leakage"
+  ],
+  "class_report": {
+    "drainage": {
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9285714285714286,
+      "support": 14.0
+    },
+    "encroachment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "garbage": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1-score": 0.9743589743589743,
+      "support": 20.0
+    },
+    "graffiti": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "illegal_dumping": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 11.0
+    },
+    "illegal_parking": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 14.0
+    },
+    "noise": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1-score": 0.972972972972973,
+      "support": 18.0
+    },
+    "other": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "pothole": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    },
+    "stray_animals": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "streetlight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "water_leakage": {
+      "precision": 1.0,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.972972972972973,
+      "support": 19.0
+    },
+    "accuracy": 0.9821428571428571,
+    "macro avg": {
+      "precision": 0.9827172096908939,
+      "recall": 0.9854949874686717,
+      "f1-score": 0.9837831740005654,
+      "support": 168.0
+    },
+    "weighted avg": {
+      "precision": 0.982952172096909,
+      "recall": 0.9821428571428571,
+      "f1-score": 0.982195944152466,
+      "support": 168.0
+    }
+  }
+}
